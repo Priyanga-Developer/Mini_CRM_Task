@@ -50,26 +50,7 @@ Chart libraries (for analytics & visualizations)
 
 Custom hooks & service layer
 
-📂 Project Structure
-src/
-├── components/
-│   ├── dashboard/
-│   │   ├── KPICards.tsx
-│   │   ├── LeadTable.tsx
-│   │   ├── LeadDrawer.tsx
-│   │   ├── LeadCharts.tsx
-│   │   ├── LeadConversionAnalytics.tsx
-│   │   ├── StatusBadge.tsx
-│   │   └── ...
-│   ├── filters/
-│   │   └── FilterBar.tsx
-│   └── kpi/
-├── services/
-│   └── leadsService.ts
-├── types/
-│   └── lead.ts
-├── App.tsx
-└── App.css
+
 
 🚀 Getting Started
 Prerequisites
