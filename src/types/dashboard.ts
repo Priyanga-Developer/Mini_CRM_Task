@@ -4,7 +4,7 @@
  */
 
 import type { ReactNode } from 'react';
-import type { Lead, LeadActivity, LeadStatus } from './lead';
+import type { Lead, LeadStatus } from './lead';
 
 export interface LeadTableProps {
   leads: Lead[];

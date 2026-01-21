@@ -3,7 +3,7 @@
  * Reusable for any data entity (Leads, Accounts, Opportunities, etc.)
  */
 
-import { ColumnDef, Table } from '@tanstack/react-table';
+import type { ColumnDef, Table } from '@tanstack/react-table';
 
 export interface DataTableFilters {
   [key: string]: string | number | boolean;

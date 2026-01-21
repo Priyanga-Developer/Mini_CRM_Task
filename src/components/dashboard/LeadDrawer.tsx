@@ -1,8 +1,7 @@
 import { useEffect, useState } from 'react';
-import type { LeadActivity, LeadStatus } from '@/types/lead';
+import type { LeadActivity } from '@/types/lead';
 import type { LeadDrawerProps } from '@/types/dashboard';
 import { leadsService } from '@/services/leads';
-import { StatusBadge } from './StatusBadge';
 import { LeadStatusSelect } from './LeadStatusSelect';
 import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';

@@ -1,4 +1,4 @@
-import type { LeadStatus, LeadFilters } from '@/types/lead';
+import type { LeadStatus } from '@/types/lead';
 import type { LeadTableFiltersProps } from '@/types/dashboard';
 import type { FilterConfig } from '@/types/filter';
 import { FilterBar } from '@/components/filters/FilterBar';
