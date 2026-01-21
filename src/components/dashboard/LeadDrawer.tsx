@@ -6,7 +6,6 @@ import { LeadStatusSelect } from './LeadStatusSelect';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { Separator } from '@/components/ui/separator';
 import {
-  X,
   Mail,
   Phone,
   Building,
