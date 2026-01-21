@@ -1,7 +1,22 @@
-📊 Lead Management Dashboard
+🧩 MINI CRM
 
-A modern Lead Management Dashboard built with React and TypeScript, designed to manage, visualize, and analyze leads efficiently.
-The application includes KPI cards, interactive tables, filters, charts, and detailed lead views.
+A Mini CRM (Customer Relationship Management) application built with React and TypeScript to manage leads, track statuses, and visualize key business metrics through a clean and intuitive dashboard.
+
+✨ Features
+
+📋 Lead Management – View, create, and update leads
+
+🏷 Lead Status Tracking – Manage lead lifecycle (New, Contacted, Qualified, etc.)
+
+📊 Dashboard KPIs – Quick insights into total leads and conversions
+
+📈 Charts & Analytics – Visual representation of lead performance
+
+🔍 Filtering & Sorting – Easily filter leads by status
+
+🧾 Lead Details Drawer – View complete lead information
+
+➕ Add Lead Modal – Simple UI to add new leads
 
 ✨ Features
 
@@ -102,17 +117,6 @@ Dark mode support
 
 Unit & integration tests
 
-🤝 Contributing
-
-Contributions are welcome!
-
-Fork the repository
-
-Create a new branch
-
-Make your changes
-
-Submit a pull request
 
 📄 License
 
