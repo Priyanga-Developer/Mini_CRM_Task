@@ -91,7 +91,7 @@ yarn dev
 
 The app will be available at:
 
-http://localhost:5173
+https://mini-crm-task.vercel.app/
 
 🧩 Key Concepts Used
 
