@@ -3,7 +3,6 @@ import type { LeadActivity } from '@/types/lead';
 import type { LeadDrawerProps } from '@/types/dashboard';
 import { leadsService } from '@/services/leads';
 import { LeadStatusSelect } from './LeadStatusSelect';
-import { Button } from '@/components/ui/button';
 import { Sheet, SheetContent, SheetHeader, SheetTitle } from '@/components/ui/sheet';
 import { Separator } from '@/components/ui/separator';
 import {
@@ -51,7 +50,7 @@ export function LeadDrawer({
 
   return (
     <Sheet open={isOpen} onOpenChange={(open) => !open && onClose()}>
-      <SheetContent className="w-full sm:max-w-lg overflow-y-auto">
+      <SheetContent className="w-full sm:max-w-lg overflow-y-auto p-5">
         <SheetHeader className="space-y-4">
           <div className="flex items-start justify-between">
             <div className="space-y-1">
@@ -60,9 +59,6 @@ export function LeadDrawer({
                 <p className="text-sm text-muted-foreground">{lead.company}</p>
               )}
             </div>
-            <Button variant="ghost" size="icon" onClick={onClose}>
-              <X className="h-4 w-4" />
-            </Button>
           </div>
         </SheetHeader>
 
