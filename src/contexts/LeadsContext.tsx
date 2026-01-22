@@ -62,7 +62,7 @@ export function LeadsProvider({ children }: LeadsProviderProps) {
 
   useEffect(() => {
     fetchLeads();
-  }, [fetchLeads]);
+  }, []);
 
   /* =======================
      Row Click
