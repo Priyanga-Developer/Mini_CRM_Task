@@ -32,15 +32,15 @@ export default function Dashboard() {
   ======================= */
   return (
     <DashboardLayout>
-      <div className="p-4 pt-16 lg:p-4 lg:pt-8">
+      <div className="p-4">
         {/* Header */}
         <div className="mb-6 flex flex-col gap-4 sm:flex-row sm:items-center sm:justify-between">
-          <div>
+          {/* <div>
             <h1 className="text-2xl font-bold text-foreground">Dashboard</h1>
             <p className="text-sm text-muted-foreground">
               Manage and track your leads effectively
             </p>
-          </div>
+          </div> */}
 
           <Button onClick={() => setIsCreateModalOpen(true)}>
             <Plus className="mr-2 h-4 w-4" />
@@ -54,16 +54,16 @@ export default function Dashboard() {
         </div>
 
         {/* Charts */}
-        <div className="grid gap-6 md:grid-cols-2">
+        {/* <div className="grid gap-6 md:grid-cols-2">
           <LeadCharts leads={leads} />
           <LeadFunnelAnalytics leads={leads} />
-        </div>
+        </div> */}
 
         {/* Scroll Hint */}
-        <div className="mt-6 flex flex-col items-center text-muted-foreground">
+        {/* <div className="mt-6 flex flex-col items-center text-muted-foreground">
           <span className="text-sm">Scroll to view all leads</span>
           <span className="mt-1 animate-bounce text-lg">↓</span>
-        </div>
+        </div> */}
 
         {/* Lead Table */}
         <div className="mt-10">

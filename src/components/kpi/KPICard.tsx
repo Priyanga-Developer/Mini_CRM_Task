@@ -1,6 +1,21 @@
 import { Card, CardContent } from '@/components/ui/card';
 import { cn } from '@/lib/utils';
 import type { KPICardProps, KPIVariant } from '@/types/kpi';
+import { Skeleton } from "@/components/ui/skeleton"
+
+// export function SkeletonDemo() {
+//   return (
+//     <div className="flex items-center gap-4">
+//       <Skeleton className="h-12 w-12 rounded-full" />
+//       <div className="space-y-2">
+//         <Skeleton className="h-4 w-[250px]" />
+//         <Skeleton className="h-4 w-[200px]" />
+//       </div>
+//     </div>
+//   )
+// }
+
+
 
 const variantStyles: Record<
   KPIVariant,
@@ -58,7 +73,8 @@ export function KPICard({
             <p className="text-sm font-medium opacity-90">{title}</p>
 
             {isLoading ? (
-              <div className="mt-2 h-8 w-16 animate-pulse rounded bg-current opacity-30" />
+                <Skeleton className="h-8 w-16 " />
+              // <div className="mt-2 h-8 w-16 animate-pulse rounded bg-current opacity-30" />
             ) : (
               <>
                 <p className="mt-2 text-3xl font-bold">{value}</p>
@@ -89,7 +105,7 @@ export function KPICard({
         )}
 
         {/* Decorative bubble */}
-        <div className="absolute -bottom-4 -right-4 opacity-10">
+        <div className="absolute top-0 left-0  opacity-10">
           <div className="h-24 w-24 rounded-full bg-current" />
         </div>
       </CardContent>
