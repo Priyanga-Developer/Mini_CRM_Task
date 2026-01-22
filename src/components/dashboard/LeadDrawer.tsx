@@ -43,7 +43,7 @@ export function LeadDrawer({
         .then(setActivities)
         .finally(() => setLoadingActivities(false));
     }
-  }, [lead, isOpen]);
+  }, [isOpen]);
 
   if (!lead) return null;
 
